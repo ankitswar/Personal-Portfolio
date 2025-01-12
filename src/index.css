@@ -32,3 +32,12 @@ span {
 .bg-primary-color {
     @apply bg-purple-600
 }
+.education-item {
+  max-width: 600px;
+  
+  transition: transform 0.5s ease-in-out;
+}
+
+.education-item:hover {
+  transform: scale(1.05);
+}
